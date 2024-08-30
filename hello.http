@@ -1,0 +1,11 @@
+Get http://localhost:3000/api/hello?name=andre&surname=well
+####
+
+//Get http://localhost:3000/api/hello?name=andre&surname=well
+post http://localhost:3000/api/hello HTTP/1.1
+content-type: application/json
+
+{
+    "name": "lihle",
+    "surname": "pani"
+}
